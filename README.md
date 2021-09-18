@@ -4,7 +4,7 @@
 
 ** link to project **
 
-![preview](week3/jwI/images/jwliPre.png)
+![preview](https://raw.githubusercontent.com/Onebestever/JWLI/main/images/jwliPre.png)
 ### How It’s made
 
 This JWLI website is also another mock up. It’s layout is 1 of the most commonly used for websites. I really enjoy the clean look of this page. Everything that is important strands out and it’s just so easy to navigate and read through due to the padding & margin. The media queries were also great . I really enjoyed playing around with the margins and padding. Creating distances within the elements using padding and around them using margin. 
