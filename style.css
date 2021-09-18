@@ -1,0 +1,503 @@
+/* Box Model Hack */
+* {
+  /* margin-right: -48px; */
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.bigPadding {
+  padding: 3% 5%;
+}
+.center {
+  text-align: center;
+}
+.ful {
+  width: 100%;
+}
+.topLeftPad {
+  padding: 20px 0px 20px 20px;
+}
+.topLeftPad p {
+  font-size: 20px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.topLeftPad h1 {
+  font-size: 40px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.topLeftPad img {
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.topLeftPad input {
+  width: 65%;
+  height: 58px;
+  margin-top: 40px;
+  border: 1px solid #8f9ca3;
+  border-radius: 7px;
+  padding-left: 20px;
+}
+.topLeftPad input::placeholder {
+  font-size: 18px;
+}
+.ourHistoryS h2 {
+  float: none;
+  width: 100%;
+  text-align: left;
+  height: 27px;
+  margin-bottom: 0;
+}
+.ourHistoryS p {
+  font-size: 20px;
+}
+.topLeftPad button {
+  width: 33%;
+  height: 58px;
+  background-color: #dadada;
+  border: 1px solid #8f9ca3;
+  border-radius: 7px;
+  color: white;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.clear {
+  clear: both;
+}
+.profileHeader {
+  width: 100%;
+}
+
+header ul {
+  display: inline-flex;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  width: 100%;
+}
+header button {
+  width: 250%;
+  background-color: #333942;
+  color: white;
+}
+
+header li {
+  margin: 0 4% 0 4%;
+}
+
+.container {
+  width: 100%;
+}
+
+.grayBg {
+  background-color: #f1f3f5;
+}
+
+.topSection > section {
+  float: left;
+  width: 50%;
+}
+
+.ourHistory {
+  width: 100%;
+  display: flex;
+}
+
+.ourHistoryS {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.topMiddle.clearfix.container h2 {
+  color: black;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: 100;
+}
+h1 {
+  color: #9c9fa4;
+  font-weight: normal;
+
+}
+.rightTextH{
+color: #9c9fa4;
+font-weight: normal;
+  font-size: 40px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: ;
+}
+
+
+h2 {
+  float: left;
+  text-align: center;
+}
+h2 p {
+  padding: 75px 6px;
+  float: left;
+}
+.thirdsectionofTwo h3 {
+  color: #333942;
+  font-size: 20px;
+  text-align: center;
+}
+.bottomPics {
+  width: 30%;
+  /* display: inline-block; */
+  margin-left: 50px;
+}
+.bottomLinksContainer{
+  display: flex;
+}
+/* who we are */
+.whoPic {
+  margin: auto;
+  display: flex;
+  border: 1px solid #d9dcdf;
+  padding: 30px;
+  width:-webkit-fill-available;
+}
+.whoPic section {
+  margin-left: 20px;
+  font-size: 25px;
+}
+.thirdsectionofTwo {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.bottomHfourP {
+  display: flex;
+}
+.bottomHfourP section {
+  margin: 20px;
+}
+.topFooter {
+  background-color: rgb(205, 221, 240);
+  height: 60px;
+}
+.topFooter h3 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  padding: 13px 20px 8px 50px;
+  color: white;
+  font-size: 28px;
+  font-weight: normal;
+}
+h3 form input{
+  height: 100%;
+  border: 1px solid #9ba3ad;
+  width: 80%;
+  border-radius: 3px;
+  padding: 10px;
+}
+h3 form{
+  width: 40%;
+  display: flex;
+}
+h3 form button{
+  height: 100%;
+  border: 1px solid #c8cdcf;
+  width: 20%;
+  border-radius: 3px;
+  margin-left: 20px;
+  background-color: #8f9ca3;
+  color: white;
+}
+footer {
+  background-color: #8f9ca3;
+}
+.bottomPics img{
+  width: -webkit-fill-available;
+}
+
+.bottomFooter{
+  padding: 0px 175px ;
+  color:  white;
+}
+.bottomFooter p{
+  border-bottom: 2px solid white;
+  padding: 30px 0px;
+  margin-top: 0px;
+  display: flex;
+    justify-content: space-between;
+}
+.bottomFooter p span{
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+.bottomFooter a{
+  color: white;
+  text-decoration: none;
+}
+.bottomHfourP h4 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.bottomHfourP p {
+  font-size: 18px;
+  line-height: 30px;
+}
+.thirdsectionofTwo h3 {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+.redMarker {
+  border-top: 3px solid #ffddf0;
+  width: 50%;
+  float: left;
+  /* margin: 0px 0px; */
+  margin: 0px 50px;
+  text-align: center;
+}
+.bottomP {
+  float: left;
+}
+.bottomLinks {
+  display: inline-block;
+  width: 15%;
+}
+.bottomLinks ul{
+  list-style: none;
+  padding: 0;
+}
+.bottomLinks li{
+ margin-bottom: 6px;
+}
+.bottomRightLinks{
+ display: inline-block;
+ width: 40%;
+}
+.bottomRightLinks ul{
+  display: flex;
+  padding: 0;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+/* desktop
+@media (min-width: 820px) and (max-width: 1024px) {
+  .topSection > section {
+    background-color: purple;
+  }
+} */
+
+/* desktop */
+@media (min-width: 820px) and (max-width: 1024px) {
+  .topSection > section {
+    background-color: purple;
+  }
+}
+/* tablet */
+@media (min-width: 768px) and (max-width: 819px) {
+
+
+.thirdsectionofTwo.clearfix.container h4{
+  text-decoration: underline red;
+
+}
+.thirdsectionofTwo.clearfix.container h3{
+  color: red;
+
+}
+.ourHistoryS h2{
+  color: red;
+}
+
+.hide{
+  visibility: visible;
+}
+.topSection > section{
+  width: 50%;
+}
+
+.topLeftPad img {
+  display: block;
+  margin-bottom: 30px;
+  width: 50%;
+
+
+}
+
+.ourHistoryS {
+  width: 50%;
+}
+
+.profileHeader{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+
+
+
+/* phone */
+@media (min-width: 375px) and (max-width: 767px) {
+  .topMiddle.clearfix.container h2 {
+    color: red;
+    font-style: italic;
+    font-size: 23px;
+    }
+.ladyImage, .bottomHal{
+visibility: hidden;} 
+}
+.profileHeader{
+  width: 100%;
+  margin: 0 auto;
+}
+.topLeftPad button {
+  width: 45%;
+  height: 26px;
+  
+}  
+.topLeftPad h1{
+visibility: hidden;
+}
+.ourHistoryS {
+  width: 100%;
+  
+}
+.ourHistoryS p {
+  text-align: justify;
+}
+.ourHistoryS > h2{
+text-align: center;
+}
+.whoPic p{
+  font-size: 14px;
+}
+.whoPic h4{
+  font-size: 22px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.bottomHfourP h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bottomHfourP p {
+  font-size: 12px;
+  text-align: justify;
+  line-height: 1;
+}
+
+  .topLeftPad p {
+    font-size: 20px;
+    margin-top: 52px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.topLeftPad img {
+  display: block;
+  margin-bottom: 30px;
+  width: 100%;
+}
+header li {
+  margin: 0 1%;
+}
+.hide {
+  visibility: hidden;
+}
+.topSection > section{
+  width: 100%;
+}
+.full {
+  font-size: 20px;
+}
+.redMarker{
+  margin: 0px;
+}
+
+.ladyImage {
+  -webkit-fill-available;
+}
+/* ipad */
+/* @media (min-width: 376px) and (max-width: 768px) {
+        body {
+            color: pink;
+        }
+    
+    
+    } */
+/* iphonex */
+/* @media (min-width: 0px)  and (max-width: 375px) {
+        ul { */
+
+/* } */
+
+/* main sections
+/* .topSection
+
+.topMiddle 
+
+/* .redMarker{
+            border-top: 3px solid red;
+}
+.topMiddle {
+            float: left;
+} */
+/* .emailTop {
+          height: 2m;
+          width: 60%;
+          border-radius: 4px;
+          font-size: 20px;
+          float: left;
+}
+
+ul>li>button {
+  background-color: black;
+  color: white;
+}
+
+
+.emailTop input {
+  height: 2em;
+  float: left;
+  width: 60%;
+  display: block;
+  font-size: 24px;
+}
+
+.emailTop button {
+  width: 30%;
+  display: block;
+  float: left;
+  font-size: 16px;
+  background-color: rgb(184, 197, 207);
+  color: white;
+  margin-left: 8%;
+  border-radius: 4px;
+  border: 0px;
+  padding: 2% 8%;
+  text-align: center;
+}  */
